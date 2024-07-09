@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared styles */
+.secondary-background {
+  background-color: rgb(255, 248, 243);
+}
+
+.text-primary {
+  color: rgb(253, 110, 10);
+}
+
+.dark-2 {
+  color: rgb(71, 71, 71);
+}
+
+.btn-primary {
+  background-color: rgb(253, 110, 10);
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section-title {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* header */
+
+
+.header {
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-position: 23px 38px, bottom right;
+  background-repeat: no-repeat;
+}
+
+/* Nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 226px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* banner styles */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 38px 0 230px;
+}
+
+.banner-content {
+  max-width: 585px;
+  max-height: 356px;
+}
+
+.banner-greetings {
+  margin: 0;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.banner-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  background-color: white;
+  color: rgb(253, 110, 10);
+  border: 1px solid rgb(253, 110, 10);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.banner-profile-pic {
+  width: 584px;
+}
+
+/* main styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about styles */
+
+.about {
+  border-radius: 10px;
+  padding: 131px 156px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.about-infos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+  margin-bottom: 6px;
+}
+
+.about-description {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
+}
