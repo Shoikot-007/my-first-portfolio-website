@@ -212,3 +212,50 @@ main section {
   font-weight: 400;
   line-height: 28px;
 }
+
+/* resume section styles */
+
+.resume-column-container {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column-title {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.experience-title {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.experience-subtitle {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.experience-description {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 29.5px;
+  width: 460px;
+  margin-right: 71px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
